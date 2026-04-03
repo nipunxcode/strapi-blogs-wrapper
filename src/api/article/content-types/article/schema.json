@@ -41,6 +41,12 @@
     },
     "content": {
       "type": "richtext"
+    },
+    "tags": {
+      "type": "json"
+    },
+    "authorSlug": {
+      "type": "string"
     }
   }
 }

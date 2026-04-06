@@ -17,7 +17,7 @@
     },
     "description": {
       "type": "text",
-      "maxLength": 80
+      "maxLength": 155
     },
     "slug": {
       "type": "uid",
@@ -40,7 +40,11 @@
       "inversedBy": "articles"
     },
     "content": {
-      "type": "richtext"
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
     },
     "tags": {
       "type": "json"
